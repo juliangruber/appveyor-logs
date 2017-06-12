@@ -1,5 +1,5 @@
 
-# appveyor-logs [![Build Status](https://appveyor-ci.org/juliangruber/appveyor-logs.svg?branch=master)](https://appveyor-ci.org/juliangruber/appveyor-logs)
+# appveyor-logs [![Build Status](https://travis-ci.org/juliangruber/appveyor-logs.svg?branch=master)](https://travis-ci.org/juliangruber/appveyor-logs)
 
 Stream all available appveyor logs of the current repository's current commit to the terminal, until all jobs are finished!
 
