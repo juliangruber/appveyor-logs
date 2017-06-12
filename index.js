@@ -12,7 +12,7 @@ module.exports = dir => {
 
   let repo, sha
 
-  Promise.all([getRepo(dir), retry(() => getCommit(dir), { retries: 5 })])
+  Promise.all([getRepo(dir), retry(() => getCommit(dir), { retries: 10 })])
     .then(([_repo, _sha]) => {
       [repo, sha] = [_repo, _sha]
       events.emit('repo')
