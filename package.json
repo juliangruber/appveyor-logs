@@ -1,0 +1,25 @@
+{
+  "name": "appveyor-logs",
+  "version": "2.2.3",
+  "license": "MIT",
+  "repository": "juliangruber/appveyor-logs",
+  "bin": {
+    "appveyor-logs": "bin.js"
+  },
+  "scripts": {
+    "test": "prettier-standard-formatter *.js && standard"
+  },
+  "dependencies": {
+    "appveyor-build-by-commit": "^1.0.1",
+    "blocking-stdio": "^1.0.1",
+    "gh-canonical-repository": "^2.1.0",
+    "git-current-commit": "^1.1.0",
+    "got": "^7.0.0",
+    "ora": "^1.2.0",
+    "p-retry": "^1.0.0"
+  },
+  "devDependencies": {
+    "prettier-standard-formatter": "^0.222222222222222.333333333333333",
+    "standard": "^10.0.2"
+  }
+}
