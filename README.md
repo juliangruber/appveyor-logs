@@ -3,6 +3,8 @@
 
 Stream all available appveyor logs of the current repository's current commit to the terminal, until all jobs are finished!
 
+WIP
+
 ![screenshot](screenshots/1.png)
 
 ![screenshot](screenshots/2.png)
