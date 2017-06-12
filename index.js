@@ -41,6 +41,9 @@ module.exports = dir => {
             events.emit('fail')
           }
         })
+        .catch(err => {
+          events.emit('error', err)
+        })
       return start
     })
     .catch(err => {
